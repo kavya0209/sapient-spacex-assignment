@@ -1,0 +1,44 @@
+.container{
+    height:100%;
+}
+
+.sp-main{
+  display:flex;
+  flex-direction: column;
+  background-color: rgb(232,232,232);
+}
+
+.sp-heading{
+    display:flex;
+    flex:1
+}
+
+.sp-body{
+    display:flex;
+    flex:9; 
+    flex-direction:row;
+}
+
+.sp-header-text{
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin-left: 1em;
+    font-size: 1.3em;
+}
+
+/* ----------------- */
+
+
+
+
+
+
+
+
+
+  
+
+
+
+

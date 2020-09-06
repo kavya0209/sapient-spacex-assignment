@@ -1,0 +1,15 @@
+<div class="sp-spaceX sp-border" *ngIf="spaceXLaunches$ | async as spaceX">
+    <div class="sp-space-x-div" *ngFor="let space of spaceX">
+        <div class="sp-spaceX-img-container sp-border">
+            <img src="assets/rocket.jpeg" alt="rocket" class="spaceX-image"> 
+        </div>
+        <div class="sp-space-info sp-border">
+            <div class="sp-spaceX-name">{{space.mission_name}}</div>
+            <div class="sp-spaceX-name">{{space.flight_number}}</div>
+            <div class="sp-content">Launch Year : {{space.launch_year}}</div>
+            <div class="sp-content">Successful Launch : {{space.launch_success}}</div>
+            <div class="sp-content">Successful Landing : </div>
+            <div class="sp-content">Mission Ids : </div>
+        </div>
+    </div>
+</div>

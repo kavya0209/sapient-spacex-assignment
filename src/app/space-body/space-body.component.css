@@ -1,0 +1,54 @@
+.sp-spaceX{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+    height: 60em;
+}
+
+.sp-space-x-div{
+    display: flex;
+    height: 28em;
+    width: 20em;
+    background-color: white;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    border-radius: 0.5em;
+    flex-direction: column;
+    margin-bottom: 2em;
+    align-items: center;
+}
+
+
+.sp-spaceX-img-container{
+    background-color: rgb(232,232,232);
+    height: 13em;
+    width: 16em;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+}
+
+.sp-space-info{
+    height: 12em;
+    width: 16em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.sp-spaceX-name{
+    font-weight:bold;
+    color:rgb(70, 130, 180);
+    
+}
+
+.sp-content{
+    font-weight: bold;
+}
+
+.spaceX-image{
+    height:13em;
+    width:16em;
+}
